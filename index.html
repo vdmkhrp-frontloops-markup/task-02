@@ -1,12 +1,61 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="./src/style.scss">
-  <title># challenge</title>
-</head>
-<body>
-
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Hedvig+Letters+Sans&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./src/style.scss" />
+    <title>#2</title>
+  </head>
+  <body>
+    <div class="payment-block">
+      <div class="payment-block__dots">
+        <div class="payment-block__dots-item"></div>
+        <div class="payment-block__dots-item"></div>
+        <div class="payment-block__dots-item"></div>
+      </div>
+      <h1 class="payment-block__title">payment method</h1>
+      <label class="radio">
+        <input type="radio" class="radio__input" name="card" />
+        <span class="radio__wrap">
+          <img class="radio__card-image" src="./src/img/visa.svg" alt="visa" />
+          <span class="radio__text">visa</span>
+          <img class="radio__fake" src="./src/img/check.svg" alt="check" />
+        </span>
+      </label>
+      <label class="radio">
+        <input type="radio" class="radio__input" name="card" />
+        <span class="radio__wrap">
+          <img
+            class="radio__card-image"
+            src="./src/img/mastercard.svg"
+            alt="mastercard"
+          />
+          <span class="radio__text">mastercard</span>
+          <img class="radio__fake" src="./src/img/check.svg" alt="check" />
+        </span>
+      </label>
+      <label class="radio">
+        <input type="radio" class="radio__input" name="card" />
+        <span class="radio__wrap">
+          <img
+            class="radio__card-image"
+            src="./src/img/maestro.svg"
+            alt="maestro"
+          />
+          <span class="radio__text">maestro</span>
+          <img class="radio__fake" src="./src/img/check.svg" alt="check" />
+        </span>
+      </label>
+      <button type="button" class="payment-block__button">
+        next step
+        <img src="./src/img/arrow.svg" alt="arrow" />
+      </button>
+    </div>
+  </body>
 </html>
