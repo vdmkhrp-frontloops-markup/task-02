@@ -8,7 +8,8 @@ body {
   display: grid;
   place-items: center;
   font-family: "Hedvig Letters Sans", sans-serif;
-  background-image: url("./img/background.webp");
+  background-image: url("./img/background.webp"),
+    linear-gradient(#d3daac, #364136);
   background-repeat: no-repeat;
   background-size: cover;
   padding: clamp(5px, 2vw, 20px);
